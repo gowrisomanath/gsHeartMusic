@@ -24,9 +24,9 @@
 //Pin numbers and other details
 #define NUM_LEDS 12
 #define pulse_apin 0 //Connect Pulse heart rate to analog A0
-#define echoPin 1 //Connect Ultrasound echo pins from analog pin 1
-#define numEcho 5 //Number of ultra-sound connected. [I used 5 and connected from A1 to A5]
-#define trigPin 5 //Connect all trigger lines of ultrasound to Digital pin 5
+#define echoPin 1 //Connect Ultrasonic sensor echo pins from analog pin 1
+#define numEcho 5 //Number of ultra-sonic sensors connected. [I used 5 and connected from A1 to A5]
+#define trigPin 5 //Connect all trigger lines of ultrasonic to Digital pin 5
 #define speaker_basepin 6 //Connect a 8ohm speaker to digital pwm pin 6 and 3
 #define speaker_pin 3
 
